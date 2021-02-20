@@ -1,0 +1,171 @@
+/************************ELEMENT SPECIFIER ******************************/
+
+body{
+margin: 0px;
+text-align: center;
+font-family: 'Merriweather', serif;
+color:#40514E;
+}
+
+h1
+{
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+    
+}
+
+h2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin: auto;
+    color: #66BFBF;
+    padding: 20px;
+}
+
+h3
+{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+a
+{
+    color: #EAF6F6;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;;
+
+}
+a:hover{
+    color:black;
+    
+}
+p
+{
+    line-height: 2;
+  
+}
+
+hr{
+    
+    border: dotted #11999E;
+    width: 4%;
+    margin: 100px auto 100px auto;
+    border-bottom: none;
+}
+/************************CLASS SPECIFIER ******************************/
+.top-container
+{
+    background-color:#eff8ff;
+    position: relative;
+    padding-top: 100px;
+
+
+
+}
+
+.bottom-container
+{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.bottom-cloud
+{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.top-cloud
+{
+    position: absolute;
+    top:50px;
+    right: 300px;
+}
+
+.designation
+{
+    font-weight: normal;
+}
+.skill-row
+{
+
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    
+}
+
+.computer-img
+{
+    border-radius: 100%;
+    width: 25%;
+    border: solid 1px;
+    float: left;
+    margin-right: 30px;
+}
+
+.chillies-img
+{
+    border-radius: 100%;
+    border: solid 1px;
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.profile-img
+{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+
+}
+.intro
+{
+    width: 40%;
+    margin: auto;
+    
+}
+
+.footer-info
+{
+    width: 40%;
+    margin: 40px auto 60px;  
+}
+
+.btn {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    background-color: #66BFBF;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 20px;
+ }
+ 
+ .btn:hover {
+    background: #13daa5;
+    border: solid #99C624 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+ .copyright
+ {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+ }
